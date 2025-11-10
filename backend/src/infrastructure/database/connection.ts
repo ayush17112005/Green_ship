@@ -2,6 +2,7 @@
 import { DataSource } from 'typeorm';
 import dotenv from 'dotenv';
 import { RouteModel } from '../../adapters/outbound/postgres/models/RouteModel';
+import { BankingRecordModel } from '../../adapters/outbound/postgres/models/BankingRecordModel';
 
 dotenv.config();
 
@@ -32,7 +33,7 @@ export const AppDataSource = new DataSource({
   logging: true,
   
   // All database models (entities)
-  entities: [RouteModel],
+  entities: [RouteModel, BankingRecordModel],
   
   // Migrations folder
   migrations: ['src/infrastructure/database/migrations/*.ts'],
