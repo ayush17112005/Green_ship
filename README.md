@@ -10,14 +10,6 @@ A full-stack application for managing maritime vessel compliance under the FuelE
 - [Features](#features)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [Running the Application](#running-the-application)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
-- [Screenshots](#screenshots)
-- [License](#license)
-
 ---
 
 ## 🌊 Overview
